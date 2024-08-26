@@ -1,0 +1,40 @@
+body {
+  background-image: url("images/galaxy.gif");
+  color: white;
+}
+.heading {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+}
+.container {
+  margin: 0 200px;
+  justify-content: center;
+  padding: 20px;
+}
+input,
+select {
+  margin-right: 10px;
+}
+.box {
+  display: flex;
+  justify-content: center;
+
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  align-items: center;
+  width: 90%;
+  margin: 30px 100px;
+}
+.name {
+  margin-bottom: 40px;
+}
+.weight {
+  background-color: rgba(255, 255, 255, 0.4);
+  height: 80px;
+  border-radius: 50%;
+  margin: 10px 120px;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 1.3rem;
+}
